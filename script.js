@@ -11,4 +11,4 @@ fetch('https://jsonplaceholder.typicode.com/comments')
             document.querySelector('div').insertAdjacentHTML('beforeend', markup);
         });
     })
-    .catch(error => console.log(error));ß
+    .catch(error => console.log(error));
